@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <label>Enter a temprature:</label>
+      <input type="text" id="inputField" class="text-input" size="50" />
+    </div>
+
+    <div class="container2">
+      <p>convert to:</p>
+      <div class="one">
+        <label>Celsius:</label>
+        <input type="radio" id="cButton" name="unit" />
+      </div>
+      <div class="two">
+        <label>Fahrenheit:</label>
+        <input type="radio" id="fButton" name="unit" />
+      </div>
+      <label id="tempLabel"></label>
+      <div class="three">
+        <input type="submit" id="submitButton" />
+        <button id="resetBtn">Reset</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
